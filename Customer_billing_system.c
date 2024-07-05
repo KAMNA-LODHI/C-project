@@ -93,7 +93,7 @@ void bill()
 	scanf("%d",&na);
 	printf("\n");
 	FILE *fp;
-	fp=fopen("Records.txt","w");
+	fp=fopen("Records.txt","r");
 	FILE *fptr;
 	fptr=fopen("temp.txt","w");
 	while(!(feof(fp)))
